@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>magnifico </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a class="logo">magnifico</a>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link">
+                Products
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link">
+                Solutions
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link">
+                Services
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link">
+                Help Center
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+          
+          <!-- Mobile auth buttons -->
+          <div class="mobile-auth-buttons">
+            <a href="#" class="login-btn">Log in</a>
+            <a href="#" class="signup-btn">
+              Sign Up Free
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </nav>
+        
+        <div class="auth-buttons desktop-auth">
+          <a href="#" class="login-btn">Log in</a>
+          <a href="#" class="signup-btn">
+            Sign Up Free
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text animate-on-scroll">
+          <h1>Team projects, <br>done well</h1>
+          <p>The only platform that gives your team all the tools needed to work together on their awesome projects.</p>
+          
+          <div class="email-signup">
+            <div class="input-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="email-icon">
+                <path d="M21.75 6.75V17.25C21.75 18.3546 20.8546 19.25 19.75 19.25H4.25C3.14543 19.25 2.25 18.3546 2.25 17.25V6.75M21.75 6.75C21.75 5.64543 20.8546 4.75 19.75 4.75H4.25C3.14543 4.75 2.25 5.64543 2.25 6.75M21.75 6.75V6.99L12.45 13.5C12.1763 13.6934 11.8237 13.6934 11.55 13.5L2.25 6.99V6.75" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <input type="email" placeholder="Enter work email">
+            </div>
+            <button class="signup-btn">
+              Sign Up Free
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          
+          <div class="partner-logos">
+            <div class="logo-item">
+              <img src="images/logoshells.png" alt="Shells">
+            </div>
+            <div class="logo-item">
+              <img src="images/logosmartfinder.png" alt="SmartFolder">
+            </div>
+            <div class="logo-item">
+              <img src="images/logoartvenue.png" alt="AtVenue">
+            </div>
+            <div class="logo-item">
+              <img src="images/logowaves.png" alt="Waves">
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-image animate-on-scroll">
+          <div class="image-container">
+            <img src="images/hero1.png" alt="Team working together">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enjoy Working Section -->
+  <section class="enjoy-working">
+    <div class="container">
+      <div class="enjoy-content">
+        <div class="image-grid animate-on-scroll">
+          <div class="grid-item">
+            <img src="images/Picture (2).png " alt="Person working">
+          </div>
+          <div class="grid-item" id="middle">
+            <img src="images/Picture (1).png" alt="Team collaboration">
+          </div>
+          <div class="grid-item ">
+            <img src="images/Picture(3).png" alt="Team meeting">
+          </div>
+        </div>
+        
+        <div class="enjoy-text animate-on-scroll">
+          <h2>Enjoy your time working</h2>
+          <p>Egestas fringilla aliquam leo, habitasse eros varius lorem elit. Neque pellentesque sed. Ornare suspendisse at ac neque lobortis sed volutpat. Mi tempus quis, massa tellus imperdiet aenean nulla id.</p>
+          <a href="#" class="link-arrow">
+            See how it helped others
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section class="tools">
+    <div class="container">
+      <div class="tools-content">
+        <div class="tools-text animate-on-scroll">
+          <h2>Get all the tools your team needs</h2>
+          <p>Egestas fringilla aliquam leo, habitasse eros varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+          <a href="#" class="link-arrow">
+            Check the tools
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+        
+        <div class="tools-image animate-on-scroll">
+          <img src="images/chart.png" alt="Tools diagram">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problems Solved Section -->
+  <section class="problems">
+    <div class="container">
+      <div class="problems-content">
+        
+        <div class="problems-text animate-on-scroll">
+          <h2>Problems come and get solved with ease</h2>
+          <p>Egestas fringilla aliquam leo, habitasse eros varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+          <a href="#" class="link-arrow light">
+            Improve workflow
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Workflow Section -->
+  <section class="workflow">
+    <div class="container">
+      <div class="workflow-content">
+        <div class="workflow-text animate-on-scroll">
+          <h2>Improve workflow</h2>
+          
+          <div class="tabs">
+            <button class="tab active">Research</button>
+            <button class="tab">Plan</button>
+            <button class="tab">Design</button>
+          </div>
+          
+          <p>Egestas fringilla aliquam leo, habitasse eros varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+          <a href="#" class="link-arrow">
+            Check the tools
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+        
+        <div class="workflow-image animate-on-scroll">
+          <div class="image-container">
+            <img src="images/hero2.png" alt="Team planning">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content animate-on-scroll">
+        <h2>Join the community today</h2>
+        <p>Egestas fringilla aliquam leo, habitasse eros varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+        <a href="#" class="signup-btn cta-btn">
+          Sign Up Free
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="copyright">
+          <p>magnifico © 2023. All rights reserved.</p>
+        </div>
+        
+        <div class="footer-links">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Support</a>
+          <a href="#">About</a>
+          <a href="#">Resources</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuToggle = document.getElementById('menu-toggle');
+      const nav = document.querySelector('.nav');
+      const menuIcon = document.querySelector('.menu-icon');
+      
+      // Toggle menu when clicking the hamburger icon
+      menuIcon.addEventListener('click', function(e) {
+        e.preventDefault();
+        menuToggle.checked = !menuToggle.checked;
+        
+        if (menuToggle.checked) {
+          nav.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        } else {
+          nav.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+
+      // Close mobile menu when clicking outside
+      document.addEventListener('click', function(event) {
+        const isNavClick = nav.contains(event.target);
+        const isMenuIconClick = event.target.closest('.menu-icon');
+        
+        if (menuToggle.checked && !isNavClick && !isMenuIconClick) {
+          menuToggle.checked = false;
+          nav.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+
+      // Make tabs functional
+      const tabs = document.querySelectorAll('.tab');
+      
+      tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+          tabs.forEach(t => t.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+      
+      // Scroll animation that triggers every time
+      const animateOnScroll = function() {
+        const elements = document.querySelectorAll('.animate-on-scroll');
+        
+        elements.forEach(element => {
+          const elementPosition = element.getBoundingClientRect();
+          const windowHeight = window.innerHeight;
+          
+          // Check if element is in viewport
+          if (elementPosition.top < windowHeight * 0.85) {
+            element.classList.add('animate');
+          } else {
+            element.classList.remove('animate');
+          }
+        });
+      };
+      
+      // Run on scroll
+      window.addEventListener('scroll', animateOnScroll);
+      
+      // Run once on page load
+      animateOnScroll();
+    });
+  </script>
+</body>
+</html>
